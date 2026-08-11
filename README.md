@@ -53,6 +53,7 @@ This repository contains two practical Python projects:
    ```bash
    git clone https://github.com/eyob-tk/USD-to-ETB-Currency-Converter-Multi-Number-Statistical-Analyzer.git
    cd USD-to-ETB-Currency-Converter-Multi-Number-Statistical-Analyzer
+   ```
 
 2. **Install required dependencies:**
    ```bash
