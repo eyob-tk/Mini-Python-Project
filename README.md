@@ -48,3 +48,33 @@ This repository contains two practical Python projects:
 ### Requirements
 * **Python 3.7+**
 * **`requests`** library for handling API calls
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/eyob-tk/USD-to-ETB-Currency-Converter-Multi-Number-Statistical-Analyzer.git
+   cd USD-to-ETB-Currency-Converter-Multi-Number-Statistical-Analyzer
+
+2. **Install required dependencies:**
+   ```bash
+   pip install requests
+   ```
+
+---
+
+### 🚀 How to Run
+* **Execute the main script using Python:**
+  ``` bash
+  python assignment.py
+  ```
+
+---
+
+### 🛡️ Error Handling
+* **API Network Failure:** Handles HTTP request timeouts or connectivity issues gracefully without crashing
+* **Invalid User Inputs:** Uses  ```try-except``` blocks and input validation loops to prompt users until valid numeric input is provided.
+* **Empty Data Entries:** Prevents division-by-zero errors in statistical calculations by checking if the input list contains valid data points before proceeding.
+
+---
+
+### 📜 License
+This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
